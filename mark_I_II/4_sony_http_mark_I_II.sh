@@ -1,7 +1,8 @@
 #!/bin/bash
-# Uncomment the line below to show the execution of the script in full detail
+# Alexandru Barbovschi (c) 2025-2026
+# Uncomment the line below to show the execution of the script in full detail.
 #set -x
-# Uncomment the line below to execute the script step by step
+# Uncomment the line below to execute the script step by step.
 #trap read debug
 
 
@@ -9,7 +10,7 @@
 # We start one big cycle, which will take a shot for each desired shutter speed.
 for i in 32/10 16/10 8/10 4/10 1/5 1/10 1/20 1/40 1/80 1/160 1/320 1/640 1/1250 1/2500 1/5000
 do
-    # We will take 10 attempts for setting the shutter speed.
+    # We will take up to 10 attempts for setting the shutter speed.
     # Yeah, it sometimes not succeeding on the first try :)
     for j in $(seq 1 10)
     do

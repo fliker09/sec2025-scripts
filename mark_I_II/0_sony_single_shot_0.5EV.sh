@@ -1,7 +1,8 @@
 #!/bin/bash
-# Uncomment the line below to show the execution of the script in full detail
+# Alexandru Barbovschi (c) 2025-2026
+# Uncomment the line below to show the execution of the script in full detail.
 #set -x
-# Uncomment the line below to execute the script step by step (except for functions)
+# Uncomment the line below to execute the script step by step (except for functions).
 #trap read debug
 
 # This value was found experimentally. Lower values make the shooting unreliable

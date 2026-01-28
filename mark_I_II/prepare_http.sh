@@ -1,7 +1,8 @@
 #!/bin/bash
-# Uncomment the line below to show the execution of the script in full detail
+# Alexandru Barbovschi (c) 2025-2026
+# Uncomment the line below to show the execution of the script in full detail.
 #set -x
-# Uncomment the line below to execute the script step by step
+# Uncomment the line below to execute the script step by step.
 #trap read debug
 
 
