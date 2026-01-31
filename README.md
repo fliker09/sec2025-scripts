@@ -2,7 +2,7 @@
 
 This repository contains the scripts which were used to conduct the benchmarks for the presentation. The structure of this repo is as follows:
 
-* `diy_usb_remote_shutter_trigger` - contains schematics, source code and reference images for a DIY USB Remote Shutter Trigger device. It is used in 3 of the scripts in the `sony` folder. My copy was built using an Arduino Nano microcontroller.
+* `diy_usb_remote_shutter_trigger` - contains schematics, source code and reference images for a DIY USB Remote Shutter Trigger device. It is used in 3 of the scripts in the `sony_mark_III` folder. My copy was built using an Arduino Nano microcontroller.
 * `generations_reference_images` - contains reference images to help distinguish between "old" and "new" generations of Sony cameras' firmware. At the moment of writing this, the scripts were tested only for the "old" gen cameras.
 * `nikon_d610` - contains benchmark scripts for Nikon D610, a camera which was used as a reference one.
 * `raw_jpeg_mode_settings` - contains images with instructions how to properly set the camera for the scripts which are meant to benchmark 'RAW & JPEG' shooting mode.
