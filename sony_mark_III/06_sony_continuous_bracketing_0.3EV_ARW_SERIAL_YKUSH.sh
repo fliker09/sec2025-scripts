@@ -177,7 +177,7 @@ serial_pid=$!
 # Set the starting shutter speed and Bracketing Continuous mode.
 # This may take a while, depending on what settings you had before starting this script.
 # For easier and consistent benchamarking please use prepare_usb.sh script!
-time gphoto2 --set-config-value=/main/capturesettings/capturemode="Bracketing C 3.0 Steps 5 Pictures" --set-config-value=/main/capturesettings/shutterspeed=1/80 --set-config-value=/main/capturesettings/imagequality="RAW"
+time gphoto2 --set-config-value=/main/capturesettings/capturemode="Bracketing C 3.0 Steps 5 Pictures" --set-config-value=/main/capturesettings/shutterspeed=1/80
 echo
 # Ensure that Shutter Speed was indeed set at the desired value, as it's not guaranteed in one try.
 time check_shutter_speed 1/80
